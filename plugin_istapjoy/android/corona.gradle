@@ -1,0 +1,12 @@
+
+repositories {
+     maven{
+             url  "http://dl.bintray.com/ironsource-mobile/android-adapters"
+     }
+    
+}
+
+dependencies {
+        implementation 'com.ironsource.adapters:tapjoyadapter:4.1.14'
+        implementation 'com.tapjoy:tapjoy-android-sdk:12.7.0'
+}

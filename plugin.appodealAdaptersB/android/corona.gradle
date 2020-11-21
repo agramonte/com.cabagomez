@@ -1,0 +1,13 @@
+
+repositories {
+    maven {
+        url "https://artifactory.appodeal.com/appodeal"
+    }
+
+	
+}
+
+dependencies {
+    implementation 'com.appodeal.ads.sdk.networks:mopub:2.7.3.4'
+    implementation 'com.appodeal.ads.sdk.networks:facebook:2.7.3.5'
+}
