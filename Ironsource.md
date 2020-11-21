@@ -1,9 +1,8 @@
 # solar2d-Ironsource-Plugin
 Ironsource Plugin for solar2d
 
-1. Activate the plugin here: https://www.solar2dplugins.com. Follow the instructions for the build settings.
 
-2. According to the ironsource documentation for iOS. Need to add the transport security exception to the build settings and also any attribution keys for iOS 14. The full list of keys currently avalable for ironsource can be found here: https://developers.ironsrc.com/ironsource-mobile/ios/ios-14-network-support/
+1. The full list of keys currently avalable for ironsource can be found here: https://developers.ironsrc.com/ironsource-mobile/ios/ios-14-network-support/
 ```
 plist = {
             NSAppTransportSecurity = { NSAllowsArbitraryLoads=true },
@@ -14,18 +13,18 @@ plist = {
             },
 }
 ```
-4. Add any adapters if needed. Again from https://www.solar2dplugins.com.
+2. Add any adapters.
 
-5. Plugin supports Android 16 and above. Add to your build settings file:
+3. Plugin supports Android 16 and above. Add to your build settings file:
 ```
 minSdkVersion = "16",
 ```
-6. Refrence the plugin:
+4. Refrence the plugin:
 ```
 local ironsource = require("plugin.ironsource")
 ```
 
-7. Init. 
+5. Init. 
 ```
 ironsource.init(
     adListerner, -- Listerner. Required.
@@ -41,7 +40,7 @@ ironsource.init(
     )
 ```
 
-8. Show.
+6. Show.
 ```
     ironsource.show("<adtype>", -- Ad type. Valid values are: "interstitial", "rewardedVideo", "banner", "offerWall"
         {
@@ -51,7 +50,7 @@ ironsource.init(
     )
 ```
 
-9. Is Available.
+7. Is Available.
 ```
     ironsource.isAvailable("<adtype>",
         {
@@ -61,18 +60,18 @@ ironsource.init(
     ) -- Ad type. Valid values are: "interstitial", "rewardedVideo", "offerWall"
     -- "banner" also available in beta android.
 ```  
-10. Hide.
+8. Hide.
 ```
     ironsource.hide() -- Only functions for banner.
 ```
 
-11. Load.
+9. Load.
 ```
    ironsource.load( "<adType>" ) -- Ad type. Valid values are: "interstitial", "banner".
    -- Ironsource autoloads rewarded ads and the offerwall.
 ```
 
-12. Logs example:
+10. Logs example:
 
 loaded ("interstitial", "banner")
 ```
@@ -166,4 +165,10 @@ ironsource:	{
 }
 ```
  
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
