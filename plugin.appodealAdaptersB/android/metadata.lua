@@ -1,4 +1,0 @@
-local metadata =
-{}
-
-return metadata
