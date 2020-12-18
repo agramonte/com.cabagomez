@@ -17,23 +17,23 @@ amazonlogin.init(
 )
 ```
 
-2. Login.
+3. Login.
 ```
     amazonlogin.login()   
 ```
 
-3. Logout
+4. Logout
 ```
     amazonlogin.logout()   
 ```  
 
-8. Fetch user profile.
+5. Fetch user profile.
 ```
     amazonlogin.fetchUserProfile()
 ```
 
 
-10. Logs example:
+6. Logs example:
 
 profile fetch
 ```
@@ -44,7 +44,9 @@ amazonlogin:	{
     "email":"<email@of.user>,
     "isError":false -- Error if fails
     "message":"invalid scope" -- Error message if isError = true
-}
+}   
+
+```   
  
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
