@@ -73,7 +73,10 @@ ironsource.init(
 
 10. Set custom properties.   
 ```
-ironsource.setCustomProperty("vendor", vendorString)
+ironsource.setCustomProperty(
+    "<keyName>", 
+    "<keyValue>"
+)
 ```   
 
 11. Logs example:
@@ -187,11 +190,11 @@ Current versions iOS:
 --------------- AdColony --------------   
 SDK - Version 4.4.0.0   
 Adapter - Version 4.3.5	   
---------------- AdMob --------------   		
-SDK - Version afma-sdk-i-v7.69.0   	
-Adapter - Version 4.3.18   	
---------------- Amazon --------------   		
-SDK - Version amznAdSDK-ios-3.1.0   	
+--------------- AdMob -------------    
+SDK - Version afma-sdk-i-v7.69.0    
+Adapter - Version 4.3.18    	
+--------------- Amazon --------------     		
+SDK - Version amznAdSDK-ios-3.1.0    
 Adapter - Version 4.3.4	   
 --------------- AppLovin --------------	   	
 SDK - Version 6.14.6	   
