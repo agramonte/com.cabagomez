@@ -71,7 +71,12 @@ ironsource.init(
    -- Ironsource autoloads rewarded ads and the offerwall.
 ```
 
-10. Logs example:
+10. Set custom properties.   
+```
+ironsource.setCustomProperty("vendor", vendorString)
+```   
+
+11. Logs example:
 
 loaded ("interstitial", "banner")
 ```
@@ -165,6 +170,19 @@ ironsource:	{
 }
 ```  
 
+segmentReceived -- Segment being used by this particular user     
+```
+ironsource:	{
+      "data":"",
+      "name":"ironsource",
+      "phase":"segmentReceived",
+      "provider":"ironsource",
+      "response":"<segmentName>",
+      "type":"segment",
+      "isError":false
+    }   
+```   
+
 Current versions iOS:   
 --------------- AdColony --------------   
 SDK - Version 4.4.0.0   
@@ -196,7 +214,7 @@ Adapter - Version 4.3.8
 
 
 
-Current versions Android:
+Current versions Android:   
  --------------- AdColony --------------   
  Adapter 4.3.4   
  --------------- AdMob --------------   
