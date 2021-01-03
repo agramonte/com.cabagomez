@@ -223,11 +223,11 @@ Current versions Android:
  --------------- AdMob --------------   
  Adapter 4.3.15   
  --------------- Amazon --------------   
- Adapter 4.3.2    
- SDK Version - amznAdSDK-android-5.9.0   
+ Adapter 4.3.3    
+ SDK Version - amznAdSDK-android-6.0.0   
  --------------- AppLovin --------------   
- Adapter 4.3.20    
- SDK Version - 9.14.6   
+ Adapter 4.3.21    
+ SDK Version - 9.14.12   
  --------------- Chartboost --------------   
  Adapter 4.3.4    
  SDK Version - 8.1.0   
@@ -235,18 +235,20 @@ Current versions Android:
 Adapter 4.3.23   
 SDK Version - 6.2.0   
 --------------- IronSource  --------------   
- Adapter 7.0.3.1    
+ Adapter 7.0.4.1    
  SDK Version - 5.89   
  --------------- Tapjoy --------------   
  Adapter 4.1.15    
  SDK Version - 12.7.1   
  --------------- UnityAds --------------   
- Adapter 4.3.8    
- SDK Version - 3.5.1   
+ Adapter 4.3.9   
+ SDK Version - 3.6.0  
  --------------- Vungle --------------   
  Adapter 4.3.7    
- SDK Version - 6.8.1   
- 
+ SDK Version - 6.8.1
+
+
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
