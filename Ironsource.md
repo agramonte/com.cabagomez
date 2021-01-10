@@ -186,36 +186,37 @@ ironsource:	{
     }   
 ```   
 
-Current versions iOS:   
+Current versions iOS (Snap Adapter currently does not display in the integration helper):   
 --------------- AdColony --------------   
 SDK - Version 4.4.0.0   
-Adapter - Version 4.3.5	   
---------------- AdMob -------------    
-SDK - Version afma-sdk-i-v7.69.0    
-Adapter - Version 4.3.18    	
---------------- Amazon --------------     		
-SDK - Version amznAdSDK-ios-3.1.0    
-Adapter - Version 4.3.4	   
---------------- AppLovin --------------	   	
-SDK - Version 6.14.6	   
-Adapter - Version 4.3.20	   
---------------- Chartboost --------------	   	
-SDK - Version 8.3.1	   
-Adapter - Version 4.3.4	   
---------------- IronSource --------------	   	
-SDK - Version 5.82	   
-Adapter - Version 7.0.4	   
---------------- Tapjoy --------------	   	
-SDK - Version 12.7.1	   
-Adapter - Version 4.1.15   	
---------------- UnityAds --------------		   
-SDK - Version 3.5.1	   
-Adapter - Version 4.3.6	   
---------------- Vungle --------------	   	
-SDK - Version 6.8.1	   
-Adapter - Version 4.3.8	   
-
-
+Adapter - Version 4.3.5   
+--------------- AdMob --------------   
+SDK - Version afma-sdk-i-v7.69.0   
+Adapter - Version 4.3.18   
+--------------- Amazon --------------   
+SDK - Version amznAdSDK-ios-3.1.0   
+Adapter - Version 4.3.4   
+--------------- AppLovin --------------   
+SDK - Version 6.14.6   
+Adapter - Version 4.3.21   
+--------------- Chartboost --------------   
+SDK - Version 8.4.0   
+Adapter - Version 4.3.5   
+--------------- Facebook --------------   
+SDK - Version 6.2.0   
+Adapter - Version 4.3.21   
+--------------- IronSource --------------   
+SDK - Version 5.82   
+Adapter - Version 7.0.4   
+--------------- Tapjoy --------------   
+SDK - Version 12.7.1   
+Adapter - Version 4.1.15   
+--------------- UnityAds --------------   
+SDK - Version 3.6.0   
+Adapter - Version 4.3.7   
+--------------- Vungle --------------   
+SDK - Version 6.8.1   
+Adapter - Version 4.3.8   
 
 Current versions Android:   
  --------------- AdColony --------------   
