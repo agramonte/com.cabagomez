@@ -202,6 +202,9 @@ Adapter - Version 4.3.21
 --------------- Chartboost --------------   
 SDK - Version 8.4.0   
 Adapter - Version 4.3.5   
+--------------- InMobi --------------   
+IntegrationHelper SDK - Version 9.1.0   
+IntegrationHelper Adapter - Version 4.3.8   
 --------------- Facebook --------------   
 SDK - Version 6.2.0   
 Adapter - Version 4.3.21   
