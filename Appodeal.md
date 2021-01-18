@@ -15,8 +15,7 @@ PluginA:
     admob:2.8.1.8   
     mraid:2.8.1.2   
     unity_ads:2.8.1.7   
-    vast:2.8.1.2   
-    adcolony:2.8.1.8   
+    vast:2.8.1.2    
 
 PluginB:   
     facebook:2.8.1.8   
