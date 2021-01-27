@@ -8,11 +8,14 @@ plist = {
             NSAppTransportSecurity = { NSAllowsArbitraryLoads=true },
             SKAdNetworkItems = 
             {
-                { SKAdNetworkIdentifier = "SU67R6K2V3.skadnetwork" },
-                { SKAdNetworkIdentifier = "cstr6suwn9.skadnetwork" }
+                { SKAdNetworkIdentifier = "xxxx-lowercasealphanumeric-xxxx.skadnetwork" },
+                { SKAdNetworkIdentifier = "xxxx-lowercasealphanumeric-xxxx.skadnetwork" }
             },
 }
-```
+```   
+They have to be in lower case and my current list can be found here:   
+https://gist.github.com/agramonte/f972018e94ea152d8e2db531e8a307f5   
+
 2. Add any adapters.
 
 3. Plugin supports Android 16 and above. Add to your build settings file:
@@ -186,28 +189,28 @@ ironsource:	{
     }   
 ```   
 
-Current versions iOS (Snap Adapter currently does not display in the integration helper):   
+Current versions iOS:   
 --------------- AdColony --------------   
-SDK - Version 4.4.0.0   
-Adapter - Version 4.3.5   
+SDK - Version 4.4.1.0   
+Adapter - Version 4.3.6   
 --------------- AdMob --------------   
 SDK - Version afma-sdk-i-v7.69.0   
 Adapter - Version 4.3.18   
 --------------- Amazon --------------   
 SDK - Version amznAdSDK-ios-3.1.0   
-Adapter - Version 4.3.4   
+Adapter - Version 4.3.5   
 --------------- AppLovin --------------   
 SDK - Version 6.14.6   
 Adapter - Version 4.3.21   
 --------------- Chartboost --------------   
 SDK - Version 8.4.0   
 Adapter - Version 4.3.5   
---------------- InMobi --------------   
-IntegrationHelper SDK - Version 9.1.0   
-IntegrationHelper Adapter - Version 4.3.8   
 --------------- Facebook --------------   
-SDK - Version 6.2.0   
-Adapter - Version 4.3.21   
+SDK - Version 6.2.1   
+Adapter - Version 4.3.22   
+--------------- InMobi --------------   
+SDK - Version 9.1.0   
+Adapter - Version 4.3.8   
 --------------- IronSource --------------   
 SDK - Version 5.82   
 Adapter - Version 7.0.4   
@@ -220,6 +223,7 @@ Adapter - Version 4.3.7
 --------------- Vungle --------------   
 SDK - Version 6.8.1   
 Adapter - Version 4.3.8   
+
 
 Current versions Android:   
 --------------- AdColony --------------   
