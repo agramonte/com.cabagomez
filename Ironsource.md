@@ -200,7 +200,7 @@ Adapter - Version 4.3.18
 SDK - Version amznAdSDK-ios-3.1.0   
 Adapter - Version 4.3.5   
 --------------- AppLovin --------------   
-SDK - Version 6.14.6   
+SDK - Version 6.15.1   
 Adapter - Version 4.3.21   
 --------------- Chartboost --------------   
 SDK - Version 8.4.0   
@@ -221,10 +221,9 @@ Adapter - Version 4.1.15
 SDK - Version 3.6.0   
 Adapter - Version 4.3.7   
 --------------- Vungle --------------   
-SDK - Version 6.8.1   
+SDK - Version 6.9.1   
 Adapter - Version 4.3.8   
-
-
+ 
 Current versions Android:   
 --------------- AdColony --------------   
 Adapter 4.3.4   
