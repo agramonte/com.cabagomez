@@ -84,8 +84,7 @@ Aplovin's setHasUserConsent to false.
     mopub.shouldShowConsent()
 ```   
 
-Google:
-android versions:
+Android versions:   
 'com.adcolony:sdk:4.4.1'   
 'com.mopub.mediation:adcolony:4.4.0.0'   
 
