@@ -206,14 +206,17 @@ Adapter - Version 4.3.22
 SDK - Version 8.4.0   
 Adapter - Version 4.3.5   
 --------------- Facebook --------------   
-SDK - Version 6.2.1   
-Adapter - Version 4.3.22   
+SDK - Version 6.3.0   
+Adapter - Version 4.3.23   
 --------------- InMobi --------------   
-SDK - Version 9.1.0   
-Adapter - Version 4.3.8   
+SDK - Version 9.1.5   
+Adapter - Version 4.3.9   
 --------------- IronSource --------------   
-SDK - Version 5.83   
-Adapter - Version 7.1.0   
+SDK - Version 5.84   
+Adapter - Version 7.1.1   
+--------------- Smaato --------------   
+SDK - Version 21.6.8   
+Adapter - Version 4.3.1   
 --------------- Tapjoy --------------   
 SDK - Version 12.7.1   
 Adapter - Version 4.1.15   
@@ -222,10 +225,8 @@ SDK - Version 3.6.0
 Adapter - Version 4.3.8   
 --------------- Vungle --------------   
 SDK - Version 6.9.1   
-Adapter - Version 4.3.8   
---------------- Smaato --------------   
-SDK - Version 21.6.10   
-Adapter - Version 4.3.0   
+Adapter - Version 4.3.9   
+  
 
 Current versions Android:   
 --------------- AdColony --------------   
