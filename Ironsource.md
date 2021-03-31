@@ -194,8 +194,8 @@ Current versions iOS:
 SDK - Version 4.5.0.0   
 Adapter - Version 4.3.8   
 --------------- AdMob --------------
-SDK - Version afma-sdk-i-v7.69.0   
-Adapter - Version 4.3.19   
+SDK - Version afma-sdk-i-v8.3.0   
+Adapter - Version 4.3.20  
 --------------- Amazon --------------
 SDK - Version amznAdSDK-ios-3.1.0   
 Adapter - Version 4.3.5   
