@@ -190,40 +190,44 @@ ironsource:	{
 ```   
 
 Current versions iOS:   
-   --------------- AdColony --------------
-   SDK - Version 4.5.0.0   
-   Adapter - Version 4.3.8   
-   --------------- AdMob --------------   
-   SDK - Version afma-sdk-i-v7.69.0   
-   Adapter - Version 4.3.19   
-   --------------- Amazon --------------   
-   SDK - Version amznAdSDK-ios-3.1.0   
-   Adapter - Version 4.3.5   
-   --------------- AppLovin --------------   
-   SDK - Version 6.15.2   
-   Adapter - Version 4.3.22   
-   --------------- Chartboost --------------   
-   SDK - Version 8.4.1   
-   Adapter - Version 4.3.6   
-   --------------- Facebook --------------   
-   SDK - Version 6.3.0   
-   Adapter - Version 4.3.23      
-   --------------- IronSource --------------   
-   SDK - Version 5.85   
-   Adapter - Version 7.1.2      
-   --------------- Smaato --------------   
-   SDK - Version 21.6.8   
-   Adapter - Version 4.3.1      
-   --------------- Tapjoy --------------   
-   SDK - Version 12.7.1   
-   Adapter - Version 4.1.15   
-   --------------- UnityAds --------------   
-   SDK - Version 3.6.0   
-   Adapter - Version 4.3.8   
---------------- Vungle --------------   
+--------------- AdColony --------------
+SDK - Version 4.5.0.0   
+Adapter - Version 4.3.8   
+--------------- AdMob --------------
+SDK - Version afma-sdk-i-v8.3.0   
+Adapter - Version 4.3.20  
+--------------- Amazon --------------
+SDK - Version amznAdSDK-ios-3.1.0   
+Adapter - Version 4.3.5   
+--------------- AppLovin --------------
+SDK - Version 10.0.1   
+Adapter - Version 4.3.23   
+--------------- Chartboost --------------
+SDK - Version 8.4.1   
+Adapter - Version 4.3.6   
+--------------- Facebook --------------
+SDK - Version 6.3.1   
+Adapter - Version 4.3.24   
+--------------- InMobi --------------
+SDK - Version 9.1.5   
+Adapter - Version 4.3.9   
+--------------- IronSource --------------
+SDK - Version 5.87   
+Adapter - Version 7.1.4   
+--------------- Maio --------------
+--------------- Smaato --------------
+SDK - Version 21.6.11   
+Adapter - Version 4.3.1   
+--------------- Tapjoy --------------
+SDK - Version 12.7.1   
+Adapter - Version 4.1.15   
+--------------- UnityAds --------------
+SDK - Version 3.6.0   
+Adapter - Version 4.3.8   
+--------------- Vungle --------------
 SDK - Version 6.9.1   
 Adapter - Version 4.3.9   
-  
+
 
 Current versions Android:   
 --------------- AdColony --------------   
