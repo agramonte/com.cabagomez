@@ -85,31 +85,34 @@ Aplovin's setHasUserConsent to false.
 ```   
 
 Android versions:   
-'com.adcolony:sdk:4.4.1'   
-'com.mopub.mediation:adcolony:4.4.0.0'   
+   'com.adcolony:sdk:4.4.1'
+   'com.mopub.mediation:adcolony:4.4.1.0'
 
-'com.chartboost:chartboost-sdk:8.2.0'   
-'com.mopub.mediation:chartboost:8.2.0.3'   
+   'com.chartboost:chartboost-sdk:8.2.0'
+   'com.mopub.mediation:chartboost:8.2.0.3'
 
-'com.facebook.android:audience-network-sdk:6.2.0'   
-'com.mopub.mediation:facebookaudiencenetwork:6.2.0.2'   
+   'com.facebook.android:audience-network-sdk:6.3.0'
+   'com.mopub.mediation:facebookaudiencenetwork:6.3.0.0'
 
-'com.mopub.mediation:admob:19.6.0.1'   
+   'com.mopub.mediation:admob:19.6.0.1'
 
-'com.bytedance.sdk:pangle-sdk:3.4.1.1'   
-'com.mopub.mediation:pangle:3.4.1.1.1'   
+   'com.bytedance.sdk:pangle-sdk:3.4.1.1'
+   'com.mopub.mediation:pangle:3.4.1.1.1'
 
-'com.tapjoy:tapjoy-android-sdk:12.7.1@aar'   
-'com.mopub.mediation:tapjoy:12.7.1.1'   
+   'com.tapjoy:tapjoy-android-sdk:12.8.0@aar'
+   'com.mopub.mediation:tapjoy:12.8.0.0'
 
-'com.unity3d.ads:unity-ads:3.6.0'   
-'com.mopub.mediation:unityads:3.6.0.1'   
+   'com.unity3d.ads:unity-ads:3.6.0'
+   'com.mopub.mediation:unityads:3.6.0.1'
 
-'com.applovin:applovin-sdk:9.15.1'   
-'com.mopub.mediation:applovin:9.15.1.0'   
+   'com.applovin:applovin-sdk:10.1.1'
+   'com.mopub.mediation:applovin:10.1.1.0'
 
-'com.vungle:publisher-sdk-android:6.9.1'   
-'com.mopub.mediation:vungle:6.9.1.0'   
+   'com.vungle:publisher-sdk-android:6.9.1'
+   'com.mopub.mediation:vungle:6.9.1.0'
+
+    'com.ironsource.sdk:mediationsdk:7.1.3'
+    'com.mopub.mediation:ironsource:7.1.3.0'  
 
 
 Amazon:   
