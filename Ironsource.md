@@ -190,44 +190,42 @@ ironsource:	{
 ```   
 
 Current versions iOS:   
---------------- AdColony --------------
+--------------- AdColony --------------   
 SDK - Version 4.5.0.0   
 Adapter - Version 4.3.8   
---------------- AdMob --------------
+--------------- AdMob --------------   
 SDK - Version afma-sdk-i-v8.3.0   
-Adapter - Version 4.3.20  
---------------- Amazon --------------
+Adapter - Version 4.3.21   
+--------------- Amazon --------------   
 SDK - Version amznAdSDK-ios-3.1.0   
 Adapter - Version 4.3.5   
---------------- AppLovin --------------
+--------------- AppLovin --------------   
 SDK - Version 10.0.1   
 Adapter - Version 4.3.23   
---------------- Chartboost --------------
+--------------- Chartboost --------------   
 SDK - Version 8.4.1   
 Adapter - Version 4.3.6   
---------------- Facebook --------------
+--------------- Facebook --------------   
 SDK - Version 6.3.1   
 Adapter - Version 4.3.24   
---------------- InMobi --------------
+--------------- InMobi --------------   
 SDK - Version 9.1.5   
 Adapter - Version 4.3.9   
---------------- IronSource --------------
-SDK - Version 5.87   
-Adapter - Version 7.1.4   
---------------- Maio --------------
---------------- Smaato --------------
+--------------- IronSource --------------   
+SDK - Version 5.88   
+Adapter - Version 7.1.5   
+--------------- Smaato --------------   
 SDK - Version 21.6.11   
 Adapter - Version 4.3.1   
---------------- Tapjoy --------------
-SDK - Version 12.7.1   
-Adapter - Version 4.1.15   
---------------- UnityAds --------------
+--------------- Tapjoy --------------   
+SDK - Version 12.8.0   
+Adapter - Version 4.1.16   
+--------------- UnityAds --------------   
 SDK - Version 3.6.0   
 Adapter - Version 4.3.8   
---------------- Vungle --------------
+--------------- Vungle --------------   
 SDK - Version 6.9.1   
 Adapter - Version 4.3.9   
-
 
 Current versions Android:   
 --------------- AdColony --------------   
