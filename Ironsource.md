@@ -191,23 +191,23 @@ ironsource:	{
 
 Current versions iOS:   
 --------------- AdColony --------------   
-SDK - Version 4.5.0.0   
-Adapter - Version 4.3.8   
+SDK - Version 4.6.0.0   
+Adapter - Version 4.3.9   
 --------------- AdMob --------------   
-SDK - Version afma-sdk-i-v8.3.0   
+SDK - Version afma-sdk-i-v8.4.0   
 Adapter - Version 4.3.21   
 --------------- Amazon --------------   
 SDK - Version amznAdSDK-ios-3.1.0   
 Adapter - Version 4.3.5   
 --------------- AppLovin --------------   
-SDK - Version 10.0.1   
-Adapter - Version 4.3.23   
+SDK - Version 10.1.1   
+Adapter - Version 4.3.24   
 --------------- Chartboost --------------   
 SDK - Version 8.4.1   
 Adapter - Version 4.3.6   
 --------------- Facebook --------------   
-SDK - Version 6.3.1   
-Adapter - Version 4.3.24   
+SDK - Version 6.4.1   
+Adapter - Version 4.3.25   
 --------------- InMobi --------------   
 SDK - Version 9.1.5   
 Adapter - Version 4.3.9   
@@ -221,11 +221,12 @@ Adapter - Version 4.3.1
 SDK - Version 12.8.0   
 Adapter - Version 4.1.16   
 --------------- UnityAds --------------   
-SDK - Version 3.6.0   
-Adapter - Version 4.3.8   
---------------- Vungle --------------   
-SDK - Version 6.9.1   
+SDK - Version 3.7.1   
 Adapter - Version 4.3.9   
+--------------- Vungle --------------   
+SDK - Version 6.9.2   
+Adapter - Version 4.3.10   
+ 
 
 Current versions Android:   
 --------------- AdColony --------------   
