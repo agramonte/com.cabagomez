@@ -130,34 +130,34 @@ Android versions:
 Amazon:   
   
 'com.adcolony:sdk:4.5.0'   
-'com.mopub.mediation:adcolony:4.5.0.0'   
+'com.mopub.mediation:adcolony:4.5.0.1'   
 
 'com.chartboost:chartboost-sdk:8.2.0'   
 'com.mopub.mediation:chartboost:8.2.0.3'   
 
-'com.google.android.gms:play-services-ads:20.0.0'   
-'com.mopub.mediation:admob:20.0.0.0'   
+'com.google.android.gms:play-services-ads:20.1.0'   
+'com.mopub.mediation:admob:20.1.0.0'   
     
-'com.tapjoy:tapjoy-android-sdk:12.8.0@aar'      
+'com.tapjoy:tapjoy-android-sdk:12.8.0@aar'   
 'com.mopub.mediation:tapjoy:12.8.0.0'   
 
 'com.vungle:publisher-sdk-android:6.9.1'   
 'com.mopub.mediation:vungle:6.9.1.0'   
 
-'com.pollfish:pollfish-universal:6.0.1'   
-'com.pollfish.mediation:pollfish-mopub:5.6.0.0'   
+'com.smaato.android.sdk:mopub-banner-adapter-5-13:21.5.9'   
+'com.smaato.android.sdk:smaato-sdk-banner:21.5.9'   
 
-'com.smaato.android.sdk:mopub-banner-adapter-5-13:21.5.8'   
-'com.smaato.android.sdk:smaato-sdk-banner:21.5.8'   
+'com.smaato.android.sdk:mopub-interstitial-adapter-5-13:21.5.9'   
+'com.smaato.android.sdk:smaato-sdk-interstitial:21.5.9'   
 
-'com.smaato.android.sdk:mopub-interstitial-adapter-5-13:21.5.8'   
-'com.smaato.android.sdk:smaato-sdk-interstitial:21.5.8'   
+'com.smaato.android.sdk:mopub-rewarded-video-adapter-5-13:21.5.9'   
+'com.smaato.android.sdk:smaato-sdk-rewarded-ads:21.5.9'   
 
-'com.smaato.android.sdk:mopub-rewarded-video-adapter-5-13:21.5.8'   
-'com.smaato.android.sdk:smaato-sdk-rewarded-ads:21.5.8'   
+'com.applovin:applovin-sdk:10.2.1'   
+'com.mopub.mediation:applovin:10.2.1.0'   
 
-'com.applovin:applovin-sdk:10.1.2'   
-'com.mopub.mediation:applovin:10.1.2.0'   
+'com.verizon.ads:android-vas-standard-edition:1.9.0'     
+'com.mopub.mediation:verizon:1.9.0.1'   
 
 
 
