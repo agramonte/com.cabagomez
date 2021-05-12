@@ -20,7 +20,7 @@ local mopub = require("plugin.mopub")
 4. For "advance bidding networks" or some network you have to init the network before initializing mobpub (all the pre-initialize network supported).
 ```   
     mopub.initMediationNetwork("chartboost", <appId>, <signature>)
-    mopub.initMediationNetwork("verion", <siteId>)
+    mopub.initMediationNetwork("verizon", <siteId>)
     mopub.initMediationNetwork("ironsource", <appId>)
     mopub.initMediationNetwork("tapjoy", <tapjoyapikey> )
     mopub.initMediationNetwork("adcolony", <appId>,<placementId1>,<placementId2>,<placementId3>,<placementId4>)
