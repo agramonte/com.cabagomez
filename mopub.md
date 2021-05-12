@@ -17,10 +17,12 @@ local mopub = require("plugin.mopub")
             supportedPlatforms = { android = true, ["android-kindle"]=false } 
         },
 ```   
-4. For "advance bidding networks" you have to init the network before initializing mobpub (all the pre-initialize network supported). You don't need to do it this if you are not doing advance bidding. 
+4. For "advance bidding networks" or some network you have to init the network before initializing mobpub (all the pre-initialize network supported).
 ```   
+    mopub.initMediationNetwork("chartboost", <appId>, <signature>)
+    mopub.initMediationNetwork("verion", <siteId>)
+    mopub.initMediationNetwork("ironsource", <appId>)
     mopub.initMediationNetwork("tapjoy", <tapjoyapikey> )
-    mopub.initMediationNetwork("pangle", <appid>, <appname> )
     mopub.initMediationNetwork("adcolony", <appId>,<placementId1>,<placementId2>,<placementId3>,<placementId4>)
 ```   
 5. Init.   
@@ -84,68 +86,17 @@ Aplovin's setHasUserConsent to false.
     mopub.shouldShowConsent()
 ```   
 
-Android versions:   
-'com.adcolony:sdk:4.5.0'   
-'com.mopub.mediation:adcolony:4.5.0.1'   
-
-'com.chartboost:chartboost-sdk:8.2.0'   
-'com.mopub.mediation:chartboost:8.2.0.3'   
-
-'com.google.android.gms:play-services-ads:20.1.0'   
-'com.mopub.mediation:admob:20.1.0.0'   
-
-'com.tapjoy:tapjoy-android-sdk:12.8.0@aar'   
-'com.mopub.mediation:tapjoy:12.8.0.0'   
-
-'com.vungle:publisher-sdk-android:6.9.1'   
-'com.mopub.mediation:vungle:6.9.1.0'   
-
-'com.applovin:applovin-sdk:10.2.1'   
-'com.mopub.mediation:applovin:10.2.1.0'   
-
-'com.facebook.android:audience-network-sdk:6.4.0'   
-'com.mopub.mediation:facebookaudiencenetwork:6.4.0.1'   
-
-'com.inmobi.monetization:inmobi-ads:9.1.9'   
-'com.mopub.mediation:inmobi:9.1.9.0'   
-
-'com.unity3d.ads:unity-ads:3.7.1'   
-'com.mopub.mediation:unityads:3.7.1.1'   
-
-
-Amazon:   
-  
-'com.adcolony:sdk:4.5.0'   
-'com.mopub.mediation:adcolony:4.5.0.1'   
-
-'com.chartboost:chartboost-sdk:8.2.0'   
-'com.mopub.mediation:chartboost:8.2.0.3'   
-
-'com.google.android.gms:play-services-ads:20.1.0'   
-'com.mopub.mediation:admob:20.1.0.0'   
-    
-'com.tapjoy:tapjoy-android-sdk:12.8.0@aar'   
-'com.mopub.mediation:tapjoy:12.8.0.0'   
-
-'com.vungle:publisher-sdk-android:6.9.1'   
-'com.mopub.mediation:vungle:6.9.1.0'   
-
-'com.smaato.android.sdk:mopub-banner-adapter-5-13:21.5.9'   
-'com.smaato.android.sdk:smaato-sdk-banner:21.5.9'   
-
-'com.smaato.android.sdk:mopub-interstitial-adapter-5-13:21.5.9'   
-'com.smaato.android.sdk:smaato-sdk-interstitial:21.5.9'   
-
-'com.smaato.android.sdk:mopub-rewarded-video-adapter-5-13:21.5.9'   
-'com.smaato.android.sdk:smaato-sdk-rewarded-ads:21.5.9'   
-
-'com.applovin:applovin-sdk:10.2.1'   
-'com.mopub.mediation:applovin:10.2.1.0'   
-
-'com.verizon.ads:android-vas-standard-edition:1.9.0'     
-'com.mopub.mediation:verizon:1.9.0.1'   
-
-
+Latest version for both:
+    TapjoyAdapterConfiguration: Adapter version 12.8.0.0, SDK version 12.8.0 (Verified working.)
+    ChartboostAdapterConfiguration: Adapter version 8.2.0.3, SDK version 8.2.0 (Verified working.)
+    FacebookAdapterConfiguration: Adapter version 6.4.0.1, SDK version 6.4.0 (Verified working.)
+    IronSourceAdapterConfiguration: Adapter version 7.1.5.1.1, SDK version 7.1.5.1 (No ads so far.)
+    VerizonAdapterConfiguration: Adapter version 1.9.0.1, SDK version 1.9.0 (No ads so far.)
+    AdColonyAdapterConfiguration: Adapter version 4.5.0.1, SDK version 4.5.0 (Verified working.)
+    AppLovinAdapterConfiguration: Adapter version 10.2.1.0, SDK version 10.2.1 (Verified working.)
+    GooglePlayServicesAdapterConfiguration: Adapter version 20.1.0.0, SDK version 20.1.0 (Verified working.)
+    VungleAdapterConfiguration: Adapter version 6.9.1.0, SDK version 6.9.1 (Verified working.)
+    UnityAdsAdapterConfiguration: Adapter version 3.7.1.1, SDK version 3.7.1 (No ads so far.)
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
