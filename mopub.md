@@ -41,9 +41,9 @@ mopub.init(
 } )
 ```   
 Setting either of the 2 underage options to true will result in:  
-Adcolony's GDPR set to "0" and Adcolony COPPA to true.   
-Tapjoy's setBelowConsentAge to true.   
-Applovin's isAgeRestrictivedUser to true.   
+   Adcolony's GDPR set to "0" and Adcolony COPPA to true.   
+   Tapjoy's setBelowConsentAge to true.   
+   Applovin's isAgeRestrictivedUser to true.   
 
 Setting ccpa to true:   
 Adcolony's CCPA to "0".     
@@ -71,7 +71,7 @@ Aplovin's setHasUserConsent to false.
 8. Is Available.   
 ```   
     mopub.isAvailable("<adtype>",
-    ) -- Ad type. Valid values are: "interstitial", "rewardedVideo", "banner"
+    ) -- Ad type. Valid values are: "interstitial", "rewardedVideo", "banner" 
 ```  
 9. Hide.   
 ```   
