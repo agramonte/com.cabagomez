@@ -17,13 +17,19 @@ local mopub = require("plugin.mopub")
             supportedPlatforms = { android = true, ["android-kindle"]=false } 
         },
 ```   
-4. For "advance bidding networks" or some network you have to init the network before initializing mobpub (all the pre-initialize network supported).
+4. For whatever reason I have better luck getting impressions by pre-initializing the network. Do this before the init call for the networks you are using:
 ```   
     mopub.initMediationNetwork("chartboost", <appId>, <signature>)
     mopub.initMediationNetwork("verizon", <siteId>)
     mopub.initMediationNetwork("ironsource", <appId>)
     mopub.initMediationNetwork("tapjoy", <tapjoyapikey> )
     mopub.initMediationNetwork("adcolony", <appId>,<placementId1>,<placementId2>,<placementId3>,<placementId4>)
+    mopub.initMediationNetwork("unity", <gameId>)
+    mopub.initMediationNetwork("vungle", <appId>)
+    mopub.initMediationNetwork("pangle", <appId>)
+    mopub.initMediationNetwork("inmobi", <appkey>)
+    
+    
 ```   
 5. Init.   
 ```   
@@ -87,16 +93,18 @@ Aplovin's setHasUserConsent to false.
 ```   
 
 Latest version for both:
-    TapjoyAdapterConfiguration: Adapter version 12.8.0.0, SDK version 12.8.0 (Verified working.)
-    ChartboostAdapterConfiguration: Adapter version 8.2.0.3, SDK version 8.2.0 (Verified working.)
-    FacebookAdapterConfiguration: Adapter version 6.4.0.1, SDK version 6.4.0 (Verified working.)
-    IronSourceAdapterConfiguration: Adapter version 7.1.5.1.1, SDK version 7.1.5.1 (No ads so far.)
-    VerizonAdapterConfiguration: Adapter version 1.9.0.1, SDK version 1.9.0 (No ads so far.)
-    AdColonyAdapterConfiguration: Adapter version 4.5.0.1, SDK version 4.5.0 (Verified working.)
-    AppLovinAdapterConfiguration: Adapter version 10.2.1.0, SDK version 10.2.1 (Verified working.)
-    GooglePlayServicesAdapterConfiguration: Adapter version 20.1.0.0, SDK version 20.1.0 (Verified working.)
-    VungleAdapterConfiguration: Adapter version 6.9.1.0, SDK version 6.9.1 (Verified working.)
-    UnityAdsAdapterConfiguration: Adapter version 3.7.1.1, SDK version 3.7.1 (No ads so far.)
+    TapjoyAdapterConfiguration: Adapter version 12.8.0.0, SDK version 12.8.0 (Verfied working.)
+    ChartboostAdapterConfiguration: Adapter version 8.2.0.3, SDK version 8.2.0  (Verfied working.)
+    FacebookAdapterConfiguration: Adapter version 6.5.0.0, SDK version 6.5.0  (Verfied working.)
+    IronSourceAdapterConfiguration: Adapter version 7.1.5.1.1, SDK version 7.1.5.1 (Requests. No responses.)
+    VerizonAdapterConfiguration: Adapter version 1.9.0.1, SDK version 1.9.0 (Requests. No responses.)
+    InMobiAdapterConfiguration: Adapter version 9.1.9.0, SDK version 9.1.9  (Verfied working.)
+    AdColonyAdapterConfiguration: Adapter version 4.5.0.1, SDK version 4.5.0  (Verfied working.)
+    GooglePlayServicesAdapterConfiguration: Adapter version 20.1.0.0, SDK version 20.1.0  (Verfied working.)
+    AppLovinAdapterConfiguration: Adapter version 10.2.1.0, SDK version 10.2.1  (Verfied working.)
+    PangleAdapterConfiguration: Adapter version 3.5.1.1.0, SDK version 3.5.1.1  (No requests.)
+    VungleAdapterConfiguration: Adapter version 6.9.1.0, SDK version 6.9.1  (Verfied working.)
+    UnityAdsAdapterConfiguration: Adapter version 3.7.1.1, SDK version 3.7.1  (Verfied working.)
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
