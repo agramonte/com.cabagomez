@@ -232,7 +232,7 @@ Current versions Android:
 --------------- AdColony --------------   
 Adapter 4.3.8   
 --------------- AdMob --------------   
-Adapter 4.3.17   
+Adapter 4.3.20  
 --------------- Amazon --------------   
 Adapter 4.3.3   
 SDK Version - amznAdSDK-android-6.0.0   
@@ -249,8 +249,8 @@ SDK Version - 6.4.0
 Adapter 4.3.9   
 SDK Version - 9.1.6   
 --------------- IronSource  --------------   
-Adapter 7.1.5.1   
-SDK Version - 5.99   
+Adapter 7.1.6  
+SDK Version - 5.100   
 --------------- Pangle --------------   
 Adapter 4.3.1   
 SDK Version - 3.4.1.1   
