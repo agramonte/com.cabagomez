@@ -21,7 +21,6 @@ local mopub = require("plugin.mopub")
 ```   
     mopub.initMediationNetwork("chartboost", <appId>, <signature>)
     mopub.initMediationNetwork("verizon", <siteId>)
-    mopub.initMediationNetwork("ironsource", <appId>)
     mopub.initMediationNetwork("tapjoy", <tapjoyapikey> )
     mopub.initMediationNetwork("adcolony", <appId>,<placementId1>,<placementId2>,<placementId3>,<placementId4>)
     mopub.initMediationNetwork("unity", <gameId>)
@@ -47,19 +46,25 @@ mopub.init(
 } )
 ```   
 Setting either of the 2 underage options to true will result in:  
-   Adcolony's GDPR set to "0" and Adcolony COPPA to true.   
-   Tapjoy's setBelowConsentAge to true.   
-   Applovin's isAgeRestrictivedUser to true.   
+    Adcolony's GDPR set to "0" and Adcolony COPPA to true.   
+    Tapjoy's setBelowConsentAge to true.   
+    Applovin's isAgeRestrictivedUser to true. 
+    Unity's privacy.useroveragelimit to false.  
 
-Setting ccpa to true:   
-Adcolony's CCPA to "0".     
-Chartboost's CCPA to "OPT_OUT_SALE".    
-Applovin's setDoNotSell to true.   
+Setting ccpa do not sell to true:   
+    Adcolony's CCPA to "0".     
+    Chartboost's CCPA to "OPT_OUT_SALE".    
+    Applovin's setDoNotSell to true.
+    Vungle CCPAStatus to outed_out   
+    Unity privacy.consent to false.
 
 Setting hasUserConsent to false (GDPR users only):   
-Chartboost's GDPR to "NON_BEHAVIORAL".   
-Adcolony's GDPR set to "0".   
-Aplovin's setHasUserConsent to false.   
+    Chartboost's GDPR to "NON_BEHAVIORAL".   
+    Adcolony's GDPR set to "0".   
+    Aplovin's setHasUserConsent to false.
+    Vungle's consent status to OPTED_OUT.
+    Unity gdpr.consent too false.
+
 
 6. Load (only for interstitial and rewarded).   
 ```
