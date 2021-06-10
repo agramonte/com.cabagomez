@@ -34,11 +34,13 @@ ironsource.init(
         {
             key=<replace with your key>, -- Your ironsource app key. Required.
             showDebugLog=false, -- Optional debug param. Defaults to false. Show extended logs.
+            coppaUnderAge=false, -- Optional. Defaults to false.
+            gdprUnderAge=false, -- Optional. Defaults to false.
             showValidateIntegrationUI=false, -- Optional. Shows integration validation UI. Defaults to false.
             userId="xsdsfsd", -- Optional. UserId. If not provided ironsource will autogenerate one.
             hasUserConsent=false, -- Optional. Targeted ads. Defaults to false.
             ccpaDoNotSell=false, -- Optional. False = Sell the data. True = do not sell. Default is false.
-            isAutoLoad = true -- Optional. True = Banner and Interstitial will autoload. Default is true. (beta only).
+            isAutoLoad = true -- Optional. True = Banner and Interstitial will autoload. Default is true.
         } -- Table with options.
     )
 ```
