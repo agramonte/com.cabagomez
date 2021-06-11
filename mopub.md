@@ -98,18 +98,17 @@ Setting hasUserConsent to false (GDPR users only):
 ```   
 
 Latest version for both:
-    TapjoyAdapterConfiguration: Adapter version 12.8.0.0, SDK version 12.8.0 (Verfied working.)
-    ChartboostAdapterConfiguration: Adapter version 8.2.0.3, SDK version 8.2.0  (Verfied working.)
-    FacebookAdapterConfiguration: Adapter version 6.5.0.0, SDK version 6.5.0  (Verfied working.)
-    IronSourceAdapterConfiguration: Adapter version 7.1.5.1.1, SDK version 7.1.5.1 (Requests. No responses.)
-    VerizonAdapterConfiguration: Adapter version 1.9.0.1, SDK version 1.9.0 (Requests. No responses.)
-    InMobiAdapterConfiguration: Adapter version 9.1.9.0, SDK version 9.1.9  (Verfied working.)
-    AdColonyAdapterConfiguration: Adapter version 4.5.0.1, SDK version 4.5.0  (Verfied working.)
-    GooglePlayServicesAdapterConfiguration: Adapter version 20.1.0.0, SDK version 20.1.0  (Verfied working.)
-    AppLovinAdapterConfiguration: Adapter version 10.2.1.0, SDK version 10.2.1  (Verfied working.)
-    PangleAdapterConfiguration: Adapter version 3.5.1.1.0, SDK version 3.5.1.1  (No requests.)
-    VungleAdapterConfiguration: Adapter version 6.9.1.0, SDK version 6.9.1  (Verfied working.)
-    UnityAdsAdapterConfiguration: Adapter version 3.7.1.1, SDK version 3.7.1  (Verfied working.)
+    TapjoyAdapterConfiguration: Adapter version 12.8.1.0, SDK version 12.8.1
+    ChartboostAdapterConfiguration: Adapter version 8.2.0.3, SDK version 8.2.0
+    FacebookAdapterConfiguration: Adapter version 6.5.0.0, SDK version 6.5.0
+    VerizonAdapterConfiguration: Adapter version 1.13.0.0, SDK version standard-edition-1.13.0
+    InMobiAdapterConfiguration: Adapter version 9.1.9.0, SDK version 9.1.9
+    AdColonyAdapterConfiguration: Adapter version 4.5.0.1, SDK version 4.5.0
+    GooglePlayServicesAdapterConfiguration: Adapter version 20.1.0.0, SDK version 20.1.0
+    AppLovinAdapterConfiguration: Adapter version 10.3.0.0, SDK version 10.3.0
+    PangleAdapterConfiguration: Adapter version 3.5.1.1.0, SDK version 3.5.1.1
+    VungleAdapterConfiguration: Adapter version 6.9.1.0, SDK version 6.9.1
+    UnityAdsAdapterConfiguration: Adapter version 3.7.1.1, SDK version 3.7.1
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
