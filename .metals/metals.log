@@ -1,0 +1,4 @@
+[0m2021.06.10 10:19:53 INFO  Started: Metals version 0.10.4 in workspace '/Users/adriangomez/Solar2DPlugins/com.cabagomez' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.10 10:20:13 INFO  time: initialize in 20s[0m
+[0m2021.06.10 10:20:13 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.10 10:20:13 WARN  no build tool detected in workspace '/Users/adriangomez/Solar2DPlugins/com.cabagomez'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m

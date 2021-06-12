@@ -34,21 +34,36 @@ ironsource.init(
         {
             key=<replace with your key>, -- Your ironsource app key. Required.
             showDebugLog=false, -- Optional debug param. Defaults to false. Show extended logs.
+            coppaUnderAge=false, -- Optional. Defaults to false.
+            gdprUnderAge=false, -- Optional. Defaults to false.
             showValidateIntegrationUI=false, -- Optional. Shows integration validation UI. Defaults to false.
             userId="xsdsfsd", -- Optional. UserId. If not provided ironsource will autogenerate one.
             hasUserConsent=false, -- Optional. Targeted ads. Defaults to false.
             ccpaDoNotSell=false, -- Optional. False = Sell the data. True = do not sell. Default is false.
-            isAutoLoad = true -- Optional. True = Banner and Interstitial will autoload. Default is true. (beta only).
+            isAutoLoad = true, -- Optional. True = Banner and Interstitial will autoload. Default is true.
+            consentView = false -- Optional. True = send consent view events. iOS only. Default is false.
         } -- Table with options.
     )
 ```
 
+Setting coppaUnder age to true will result in the following changes:   
+    "AdMob_TFCD" value:true  
+    "AppLovin_AgeRestrictedUser" value:true  
+    "AdColony_COPPA" value:true   
+    "Pangle_COPPA" value:true   
+    "is_child_directed" value:true  
+
+Setting gdprUnderAge age to true will result in the following changes:
+    "AdMob_TFUA" value:true   
+    "AppLovin_AgeRestrictedUser" value:true   
+    "is_child_directed" value:true  
+
 6. Show.
 ```
-    ironsource.show("<adtype>", -- Ad type. Valid values are: "interstitial", "rewardedVideo", "banner", "offerWall"
+    ironsource.show("<adtype>", -- Ad type. Valid values are: "interstitial", "rewardedVideo", "banner", "offerWall","consentView"
         {
             y=<bannerPosition>, -- Optional. Valid for banner. Valid values are "top" and "bottom". Defaults to "bottom".
-            placementName=<placement name> -- Optional. Valid for "rewardedVideo", "offerwall", "interstitial". (beta only).
+            placementName=<placement name> -- Optional. Valid for "rewardedVideo", "offerwall", "interstitial".
         } -- Optional table.
     )
 ```
@@ -57,11 +72,10 @@ ironsource.init(
 ```
     ironsource.isAvailable("<adtype>",
         {
-            placementName=<placement name> -- Optional. Valid for "rewardedVideo", "interstitial". (beta only).
+            placementName=<placement name> -- Optional. Valid for "rewardedVideo", "interstitial", "banner".
         } -- Optional table.
     
-    ) -- Ad type. Valid values are: "interstitial", "rewardedVideo", "offerWall"
-    -- "banner" also available in beta android.
+    )
 ```  
 8. Hide.
 ```
@@ -70,7 +84,7 @@ ironsource.init(
 
 9. Load.
 ```
-   ironsource.load( "<adType>" ) -- Ad type. Valid values are: "interstitial", "banner".
+   ironsource.load( "<adType>" ) -- Ad type. Valid values are: "interstitial", "banner", "consentView"ß.
    -- Ironsource autoloads rewarded ads and the offerwall.
 ```
 
@@ -80,7 +94,18 @@ ironsource.setCustomProperty(
     "<keyName>", 
     "<keyValue>"
 )
-```   
+```  
+11. If using:   
+AdColony add these schemes (iOS only):   
+```
+    LSApplicationQueriesSchemes = 
+    {   
+            "fb",
+            "instagram",
+            "tumblr",
+            "twitter"
+    }
+```
 
 11. Logs example:
 
@@ -194,14 +219,14 @@ Current versions iOS:
 SDK - Version 4.6.0.0   
 Adapter - Version 4.3.9   
 --------------- AdMob --------------   
-SDK - Version afma-sdk-i-v8.4.0   
-Adapter - Version 4.3.21   
+SDK - Version afma-sdk-i-v8.5.0   
+Adapter - Version 4.3.23  
 --------------- Amazon --------------   
 SDK - Version amznAdSDK-ios-3.1.0   
 Adapter - Version 4.3.5   
 --------------- AppLovin --------------   
-SDK - Version 10.1.1   
-Adapter - Version 4.3.24   
+SDK - Version 10.3.0   
+Adapter - Version 4.3.5   
 --------------- Chartboost --------------   
 SDK - Version 8.4.1   
 Adapter - Version 4.3.6   
@@ -212,8 +237,8 @@ Adapter - Version 4.3.25
 SDK - Version 9.1.5   
 Adapter - Version 4.3.9   
 --------------- IronSource --------------   
-SDK - Version 5.88   
-Adapter - Version 7.1.5   
+SDK - Version 5.89  
+Adapter - Version 7.1.6.1  
 --------------- Smaato --------------   
 SDK - Version 21.6.11   
 Adapter - Version 4.3.1   
@@ -225,7 +250,7 @@ SDK - Version 3.7.1
 Adapter - Version 4.3.9   
 --------------- Vungle --------------   
 SDK - Version 6.9.2   
-Adapter - Version 4.3.10   
+Adapter - Version 4.3.11   
  
 
 Current versions Android:   
