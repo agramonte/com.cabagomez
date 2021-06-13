@@ -20,12 +20,10 @@ local mopub = require("plugin.mopub")
 4. For whatever reason I have better luck getting impressions by pre-initializing the network. Do this before the init call for the networks you are using:
 ```   
     mopub.initMediationNetwork("chartboost", <appId>, <signature>)
-    mopub.initMediationNetwork("verizon", <siteId>)
     mopub.initMediationNetwork("tapjoy", <tapjoyapikey> )
     mopub.initMediationNetwork("adcolony", <appId>,<placementId1>,<placementId2>,<placementId3>,<placementId4>)
     mopub.initMediationNetwork("unity", <gameId>)
     mopub.initMediationNetwork("vungle", <appId>)
-    mopub.initMediationNetwork("pangle", <appId>)
     mopub.initMediationNetwork("inmobi", <appkey>)
     
     
@@ -63,7 +61,7 @@ Setting hasUserConsent to false (GDPR users only):
     Adcolony's GDPR set to "0".   
     Aplovin's setHasUserConsent to false.
     Vungle's consent status to OPTED_OUT.
-    Unity gdpr.consent too false.
+    Unity gdpr.consent to false.
 
 
 6. Load (only for interstitial and rewarded).   
@@ -99,16 +97,14 @@ Setting hasUserConsent to false (GDPR users only):
 
 Latest version for both:
     TapjoyAdapterConfiguration: Adapter version 12.8.1.0, SDK version 12.8.1
-    ChartboostAdapterConfiguration: Adapter version 8.2.0.3, SDK version 8.2.0
+    ChartboostAdapterConfiguration: Adapter version 8.2.1.0, SDK version 8.2.1
     FacebookAdapterConfiguration: Adapter version 6.5.0.0, SDK version 6.5.0
-    VerizonAdapterConfiguration: Adapter version 1.13.0.0, SDK version standard-edition-1.13.0
     InMobiAdapterConfiguration: Adapter version 9.1.9.0, SDK version 9.1.9
     AdColonyAdapterConfiguration: Adapter version 4.5.0.1, SDK version 4.5.0
-    GooglePlayServicesAdapterConfiguration: Adapter version 20.1.0.0, SDK version 20.1.0
+    GooglePlayServicesAdapterConfiguration: Adapter version 20.2.0.0, SDK version 20.2.0
     AppLovinAdapterConfiguration: Adapter version 10.3.0.0, SDK version 10.3.0
-    PangleAdapterConfiguration: Adapter version 3.5.1.1.0, SDK version 3.5.1.1
     VungleAdapterConfiguration: Adapter version 6.9.1.0, SDK version 6.9.1
-    UnityAdsAdapterConfiguration: Adapter version 3.7.1.1, SDK version 3.7.1
+    UnityAdsAdapterConfiguration: Adapter version 3.7.2.0, SDK version 3.7.2      
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
