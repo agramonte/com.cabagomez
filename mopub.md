@@ -1,5 +1,5 @@
 # solar2d-Mopub-Plugin
-Mupub Plugin for solar2d / Android & Amazon only.
+Mupub Plugin. iOS Beta.
 
 1. Plugin supports Android 19 and above. Add to your build settings file:
 ```
@@ -17,17 +17,28 @@ local mopub = require("plugin.mopub")
             supportedPlatforms = { android = true, ["android-kindle"]=false } 
         },
 ```   
-4. For whatever reason I have better luck getting impressions by pre-initializing the network. Do this before the init call for the networks you are using:
+4. For whatever reason I have better luck getting impressions by pre-initializing the network. Do this before the init call for the networks you are using.
+
+Android   
 ```   
     mopub.initMediationNetwork("chartboost", <appId>, <signature>)
     mopub.initMediationNetwork("tapjoy", <tapjoyapikey> )
     mopub.initMediationNetwork("adcolony", <appId>,<placementId1>,<placementId2>,<placementId3>,<placementId4>)
     mopub.initMediationNetwork("unity", <gameId>)
     mopub.initMediationNetwork("vungle", <appId>)
-    mopub.initMediationNetwork("inmobi", <appkey>)
-    
+    mopub.initMediationNetwork("inmobi", <appkey>)  
     
 ```   
+IOS   
+```   
+    mopub.initMediationNetwork("chartboost", <appId>, <signature>)
+    mopub.initMediationNetwork("tapjoy", <tapjoyapikey> )
+    mopub.initMediationNetwork("adcolony", <appId>,<placementId1>,<placementId2>,<placementId3>,<placementId4>)
+    mopub.initMediationNetwork("unity", <gameId>)
+    mopub.initMediationNetwork("admob", <appId>) 
+    mopub.initMediationNetwork("inmobi", <appkey>) 
+    
+```  
 5. Init.   
 ```   
 mopub.init( 
@@ -36,10 +47,11 @@ mopub.init(
     bannerUnit = <mopubBannerUnitId>, -- Optional.
     rewardUnit = <mopubRewardUnitId>, -- Optional.
     hasUserConsent = false -- Optional. False = GDPR consent. Ignored outside of GDPR countries.
-    ccpaDoNotSell = false -- Optional. False = Sell the data. True = do not sell. Default is false.
-    coppaUnderAge = false -- Optional. False (default). Mark true if player is under 13.
-    gdprUnderAge = false -- Optional. False (default). Mark true if player is under 16.
+    ccpaDoNotSell = false -- Optional. --False = Sell the data. True = do not sell. Default is false.
+    coppaUnderAge = false -- Optional. False (default). --Mark true if player is under 13.
+    gdprUnderAge = false -- Optional. False (default). --Mark true if player is under 16.
     showDebugLog = true,
+    adTracking = <"notDetermined", "unavailable", "authorized">, -- Sets facebook tracking enable.
     isAutoLoad = true  -- Optional. True = Banner and Interstitial will autoload. Default is true.
 } )
 ```   
@@ -95,7 +107,7 @@ Setting hasUserConsent to false (GDPR users only):
     mopub.shouldShowConsent()
 ```   
 
-Latest version for both:
+Latest Android:
     TapjoyAdapterConfiguration: Adapter version 12.8.1.0, SDK version 12.8.1
     ChartboostAdapterConfiguration: Adapter version 8.2.1.0, SDK version 8.2.1
     FacebookAdapterConfiguration: Adapter version 6.5.0.0, SDK version 6.5.0
@@ -104,6 +116,16 @@ Latest version for both:
     GooglePlayServicesAdapterConfiguration: Adapter version 20.2.0.0, SDK version 20.2.0
     AppLovinAdapterConfiguration: Adapter version 10.3.0.0, SDK version 10.3.0
     VungleAdapterConfiguration: Adapter version 6.9.1.0, SDK version 6.9.1
+
+
+Latest iOS:
+    TapjoyAdapterConfiguration: Adapter version 12.8.1.0, SDK version 12.8.1
+	InMobiAdapterConfiguration: Adapter version 9.1.7.4, SDK version 9.1.5
+	AdColonyAdapterConfiguration: Adapter version 4.6.1.0, SDK version 4.6.1.0
+	FacebookAdapterConfiguration: Adapter version 6.5.0.0, SDK version 6.5.1
+	ChartboostAdapterConfiguration: Adapter version 8.4.2.0, SDK version 8.4.2
+	GoogleAdMobAdapterConfiguration: Adapter version 8.6.0.0, SDK version afma-sdk-i-v8.7.0
+	UnityAdsAdapterConfiguration: Adapter version 3.7.2.0, SDK version 3.7.1
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
