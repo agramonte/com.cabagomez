@@ -104,11 +104,6 @@ Latest version for both:
     GooglePlayServicesAdapterConfiguration: Adapter version 20.2.0.0, SDK version 20.2.0
     AppLovinAdapterConfiguration: Adapter version 10.3.0.0, SDK version 10.3.0
     VungleAdapterConfiguration: Adapter version 6.9.1.0, SDK version 6.9.1
-<<<<<<< HEAD
-    UnityAdsAdapterConfiguration: Adapter version 3.7.2.0, SDK version 3.7.2      
-=======
-    UnityAdsAdapterConfiguration: Adapter version 3.7.1.1, SDK version 3.7.1
->>>>>>> parent of 28f78ab (Mopub - iOS beta version)
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
