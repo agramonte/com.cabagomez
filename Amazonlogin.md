@@ -5,35 +5,44 @@ Notes:
 1. Will not work with the Gamecircle plugin.   
 2. Security profile and enable amazon login has to be set up on the Amazon Developer portal.
 
-1. Refrence the plugin:
+1. Add plugin to build settings:   
+```
+ ["plugin.amazonlogin"] =
+        {
+            publisherId = "com.cabagomez",
+            supportedPlatforms = { ["android-kindle"]=true } 
+        },
+```   
+
+2. Reference the plugin:
 ```
 local amazonlogin = require("plugin.amazonlogin")
 ```
 
-2. Init. If player already logged in will fetch profile.
+3. Init. If player already logged in will fetch profile.
 ```
 amazonlogin.init( 
     <yourListerner> 
 )
 ```
 
-3. Login.
+4. Login.
 ```
     amazonlogin.login()   
 ```
 
-4. Logout
+5. Logout
 ```
     amazonlogin.logout()   
 ```  
 
-5. Fetch user profile.
+6. Fetch user profile.
 ```
     amazonlogin.fetchUserProfile()
 ```
 
 
-6. Logs example:
+7. Logs example:
 
 profile fetch
 ```

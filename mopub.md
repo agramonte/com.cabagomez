@@ -119,14 +119,15 @@ Latest Android:
     UnityAdsAdapterConfiguration: Adapter version 3.7.5.0, SDK version 3.7.5
 
 
-Latest iOS:
-    TapjoyAdapterConfiguration: Adapter version 12.8.1.0, SDK version 12.8.1
-	InMobiAdapterConfiguration: Adapter version 9.1.7.4, SDK version 9.1.5
-	AdColonyAdapterConfiguration: Adapter version 4.6.1.0, SDK version 4.6.1.0
-	FacebookAdapterConfiguration: Adapter version 6.5.0.0, SDK version 6.5.1
-	ChartboostAdapterConfiguration: Adapter version 8.4.2.0, SDK version 8.4.2
-	GoogleAdMobAdapterConfiguration: Adapter version 8.6.0.0, SDK version afma-sdk-i-v8.7.0
-	UnityAdsAdapterConfiguration: Adapter version 3.7.2.0, SDK version 3.7.1
+Latest iOS: (Applovin & Vungle were removed because of random crashes)
+    PangleAdapterConfiguration: Adapter version 3.8.1.0.0, SDK version 3.9.0.0
+	InMobiAdapterConfiguration: Adapter version 9.2.0.1, SDK version 9.2.0
+	AdColonyAdapterConfiguration: Adapter version 4.6.1.1, SDK version 4.6.1.0
+	TapjoyAdapterConfiguration: Adapter version 12.8.1.1, SDK version 12.8.1
+	FacebookAdapterConfiguration: Adapter version 6.5.1.1, SDK version 6.5.1
+	ChartboostAdapterConfiguration: Adapter version 8.4.2.2, SDK version 8.4.2
+	GoogleAdMobAdapterConfiguration: Adapter version 8.8.0.0, SDK version afma-sdk-i-v8.9.0
+	UnityAdsAdapterConfiguration: Adapter version 3.7.5.1, SDK version 3.7.5
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
