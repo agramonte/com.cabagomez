@@ -4,25 +4,37 @@ Applovin
 AdColony
 Tapjoy
 Facebook
+Chartboost
+Unity
+Tappx
 
 1. Clone the repo to the your repo cache:
 2. Add this to the build settings:   
 ```
 ["plugin_admobtapjoy"] = {
-    publisherId = "com.cabagomez",
-    supportedPlatforms = { iphone=true, android = true }
+    publisherId = "com.cabagomez"
 },
 ["plugin_admobadcolony"] = {
-    publisherId = "com.cabagomez",
-    supportedPlatforms = { iphone=true, android = true }
+    publisherId = "com.cabagomez"
 },
 ["plugin_admobapplovin"] = {
-    publisherId = "com.cabagomez",
-    supportedPlatforms = { iphone=true, android = true }
+    publisherId = "com.cabagomez"
 },
 ["plugin_admobfacebook"] = {
+    publisherId = "com.cabagomez"
+},
+-- Only Android
+["plugin_admobchartboost"] = {
     publisherId = "com.cabagomez",
-    supportedPlatforms = { iphone=true, android = true }
+    supportedPlatforms = { android = true, ["android-kindle"]=true } 
+},
+["plugin_admobunity"] = {
+    publisherId = "com.cabagomez",
+    supportedPlatforms = { android = true, ["android-kindle"]=true } 
+},
+["plugin_admobtappx"] = {
+    publisherId = "com.cabagomez",
+    supportedPlatforms = { android = true, ["android-kindle"]=true } 
 }
 ```
 3. Set up mediation on the Admob console.   
