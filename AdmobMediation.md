@@ -9,7 +9,7 @@ Unity
 Tappx
 
 1. Clone the repo to the your repo cache:
-2. Add this to the build settings:   
+2. Add this to the build settings:
 ```
 ["plugin_admobtapjoy"] = {
     publisherId = "com.cabagomez"
@@ -32,12 +32,29 @@ Tappx
     publisherId = "com.cabagomez",
     supportedPlatforms = { android = true, ["android-kindle"]=true } 
 },
+-- Currently not working opened a ticket with Tappx
 ["plugin_admobtappx"] = {
     publisherId = "com.cabagomez",
     supportedPlatforms = { android = true, ["android-kindle"]=true } 
 }
 ```
 3. Set up mediation on the Admob console.   
+4. The tapjoy adapter also supports these calls (Android only):   
+```
+local admobTapjoy = require( "plugin.admobtapjoy" )
+admobTapjoy.setDebug(true) -- Or false.
+admobTapjoy.setGcmSender() -- Have not tested this in a while. Suspect that it still works.
+admobTapjoy.setUserLevel() -- Have not tested this in a while. Suspect that it still works.
+admobTapjoy.setUserID( "fsdfsdf" )
+admobTapjoy.setPrivacy( {
+    underAge = true, 
+    subjectToConsent = false, --subject to GDPR consent
+    hasUserConsent = false -- required if subjectToConsent is true.
+    } 
+)
+
+
+```
 
 
 
