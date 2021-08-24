@@ -1,10 +1,10 @@
-Ads following networks to Admob for bidding:
+Ads following networks to Admob:
 
-Applovin
-AdColony
-Tapjoy
-Facebook
-Chartboost
+Applovin (Bidding)
+AdColony (Bidding)
+Tapjoy (Bidding)
+Facebook (Bidding)
+Chartboost 
 Unity
 Tappx
 
@@ -23,15 +23,15 @@ Tappx
 ["plugin_admobfacebook"] = {
     publisherId = "com.cabagomez"
 },
--- Only Android
 ["plugin_admobchartboost"] = {
-    publisherId = "com.cabagomez",
-    supportedPlatforms = { android = true, ["android-kindle"]=true } 
+    publisherId = "com.cabagomez"
 },
+-- Works on Amazon but shows Google Play ads.
 ["plugin_admobunity"] = {
     publisherId = "com.cabagomez",
-    supportedPlatforms = { android = true, ["android-kindle"]=true } 
+    supportedPlatforms = { iphone = true, android = true, ["android-kindle"]=false } 
 },
+-- Only Android
 -- Currently not working opened a ticket with Tappx
 ["plugin_admobtappx"] = {
     publisherId = "com.cabagomez",
@@ -39,7 +39,7 @@ Tappx
 }
 ```
 3. Set up mediation on the Admob console.   
-4. The tapjoy adapter also supports these calls (Android only):   
+4. The tapjoy adapter also supports these calls:   
 ```
 local admobTapjoy = require( "plugin.admobtapjoy" )
 admobTapjoy.setDebug(true) -- Or false.
