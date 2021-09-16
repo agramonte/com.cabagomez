@@ -255,18 +255,15 @@ Adapter - Version 4.3.11
 
 Current versions Android:   
 --------------- AdColony --------------   
-Adapter 4.3.8   
+Adapter 4.3.9  
 --------------- AdMob --------------   
-Adapter 4.3.20  
---------------- Amazon --------------   
-Adapter 4.3.3   
-SDK Version - amznAdSDK-android-6.0.0   
+Adapter 4.3.22
 --------------- AppLovin --------------   
-Adapter 4.3.24   
-SDK Version - 10.1.2   
+Adapter 4.3.28  
+SDK Version - 10.3.2   
 --------------- Chartboost --------------   
-Adapter 4.3.5   
-SDK Version - 8.2.0   
+Adapter 4.3.7   
+SDK Version - 8.2.1   
 --------------- Facebook --------------   
 Adapter 4.3.26   
 SDK Version - 6.4.0   
@@ -274,23 +271,23 @@ SDK Version - 6.4.0
 Adapter 4.3.9   
 SDK Version - 9.1.6   
 --------------- IronSource  --------------   
-Adapter 7.1.6  
-SDK Version - 5.100   
+Adapter 7.1.10  
+SDK Version - 5.105   
 --------------- Pangle --------------   
-Adapter 4.3.1   
-SDK Version - 3.4.1.1   
+Adapter 4.3.6   
+SDK Version - 3.8.1.1   
 --------------- Smaato --------------   
 Adapter 4.3.1   
 SDK Version - 21.5.7   
 --------------- Tapjoy --------------   
-Adapter 4.1.16   
-SDK Version - 12.8.0   
+Adapter 4.1.18   
+SDK Version - 12.8.1  
 --------------- UnityAds --------------   
-Adapter 4.3.10   
-SDK Version - 3.6.0   
+Adapter 4.3.14  
+SDK Version - 3.7.5   
 --------------- Vungle --------------   
-Adapter 4.3.8   
-SDK Version - 6.9.1   
+Adapter 4.3.11   
+SDK Version - 6.10.2   
 
 
 
