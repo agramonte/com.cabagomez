@@ -1,5 +1,5 @@
 # solar2d-Mopub-Plugin
-Mupub Plugin. iOS Beta.
+Mupub Plugin.
 
 1. Plugin supports Android 19 and above. Add to your build settings file:
 ```
@@ -108,15 +108,16 @@ Setting hasUserConsent to false (GDPR users only):
 ```   
 
 Latest Android:
-    TapjoyAdapterConfiguration: Adapter version 12.8.1.0, SDK version 12.8.1
-    ChartboostAdapterConfiguration: Adapter version 8.2.1.0, SDK version 8.2.1
-    FacebookAdapterConfiguration: Adapter version 6.5.1.0, SDK version 6.5.1
-    InMobiAdapterConfiguration: Adapter version 9.2.0.0, SDK version 9.2.0
-    AdColonyAdapterConfiguration: Adapter version 4.5.0.1, SDK version 4.5.0
-    GooglePlayServicesAdapterConfiguration: Adapter version 20.2.0.0, SDK version 20.2.0
-    AppLovinAdapterConfiguration: Adapter version 10.3.2.0, SDK version 10.3.2
+    PangleAdapterConfiguration: Adapter version 3.9.0.5.0, SDK version 3.9.0.5
+    GooglePlayServicesAdapterConfiguration: Adapter version 20.3.0.0, SDK version 20.3.0
     VungleAdapterConfiguration: Adapter version 6.9.1.0, SDK version 6.9.1
-    UnityAdsAdapterConfiguration: Adapter version 3.7.5.0, SDK version 3.7.5
+    ChartboostAdapterConfiguration: Adapter version 8.2.1.0, SDK version 8.2.1
+    TapjoyAdapterConfiguration: Adapter version 12.8.1.0, SDK version 12.8.1
+    IronSourceAdapterConfiguration: Adapter version 7.1.10.1.0, SDK version 7.1.10.1
+    AdColonyAdapterConfiguration: Adapter version 4.6.4.0, SDK version 4.6.4
+    AppLovinAdapterConfiguration: Adapter version 10.3.3.0, SDK version 10.3.3
+    UnityAdsAdapterConfiguration: Adapter version 3.7.5.1, SDK version 3.7.5
+    FacebookAdapterConfiguration: Adapter version 6.7.0.0, SDK version 6.7.0
 
 
 Latest iOS: (Applovin & Vungle were removed because of random crashes)
