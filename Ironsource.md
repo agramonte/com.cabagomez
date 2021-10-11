@@ -107,7 +107,17 @@ AdColony add these schemes (iOS only):
     }
 ```
 
-11. Logs example:
+12. If using Facebook. Facebook requires this call before initializing Ironsource (iOS only):   
+```
+    isfacebook.setPrivacy( {
+        advertiserTrackingEnabled = <true or false>, -- Result of the ATT privacy question.
+        ccpaDoNotSell = <true or false> -- CCPA do not sell question.
+        }
+    )
+
+```   
+
+13. Logs example:
 
 loaded ("interstitial", "banner")
 ```
@@ -216,42 +226,38 @@ ironsource:	{
 
 Current versions iOS:   
 --------------- AdColony --------------   
-SDK - Version 4.6.0.0   
+SDK - Version 4.6.1.0   
 Adapter - Version 4.3.9   
 --------------- AdMob --------------   
-SDK - Version afma-sdk-i-v8.5.0   
-Adapter - Version 4.3.23  
---------------- Amazon --------------   
-SDK - Version amznAdSDK-ios-3.1.0   
-Adapter - Version 4.3.5   
+SDK - Version afma-sdk-i-v8.9.0   
+Adapter - Version 4.3.27   
 --------------- AppLovin --------------   
-SDK - Version 10.3.0   
-Adapter - Version 4.3.5   
+SDK - Version 10.3.4   
+Adapter - Version 4.3.28   
 --------------- Chartboost --------------   
-SDK - Version 8.4.1   
-Adapter - Version 4.3.6   
+SDK - Version 8.4.2   
+Adapter - Version 4.3.8   
 --------------- Facebook --------------   
-SDK - Version 6.4.1   
-Adapter - Version 4.3.25   
+SDK - Version 6.6.0   
+Adapter - Version 4.3.29   
 --------------- InMobi --------------   
-SDK - Version 9.1.5   
-Adapter - Version 4.3.9   
+SDK - Version 9.2.0   
+Adapter - Version 4.3.12   
 --------------- IronSource --------------   
-SDK - Version 5.89  
-Adapter - Version 7.1.6.1  
+SDK - Version 5.94   
+Adapter - Version 7.1.11   
 --------------- Smaato --------------   
-SDK - Version 21.6.11   
-Adapter - Version 4.3.1   
+SDK - Version 21.6.14   
+Adapter - Version 4.3.3   
 --------------- Tapjoy --------------   
-SDK - Version 12.8.0   
-Adapter - Version 4.1.16   
+SDK - Version 12.8.1   
+Adapter - Version 4.1.18   
 --------------- UnityAds --------------   
-SDK - Version 3.7.1   
-Adapter - Version 4.3.9   
---------------- Vungle --------------   
-SDK - Version 6.9.2   
-Adapter - Version 4.3.11   
- 
+SDK - Version 3.7.5   
+Adapter - Version 4.3.14   
+--------------- Vungle --------------
+SDK - Version 6.10.3   
+Adapter - Version 4.3.14   
 
 Current versions Android:   
 --------------- AdColony --------------   
