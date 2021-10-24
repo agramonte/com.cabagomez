@@ -259,6 +259,7 @@ Adapter - Version 4.3.14
 SDK - Version 6.10.3   
 Adapter - Version 4.3.14   
 
+
 Current versions Android:   
 --------------- AdColony --------------   
 Adapter 4.3.9  
@@ -271,8 +272,8 @@ SDK Version - 10.3.2
 Adapter 4.3.7   
 SDK Version - 8.2.1   
 --------------- Facebook --------------   
-Adapter 4.3.26   
-SDK Version - 6.4.0   
+Adapter 4.3.31   
+SDK Version - 6.8.0   
 --------------- InMobi --------------   
 Adapter 4.3.9   
 SDK Version - 9.1.6   

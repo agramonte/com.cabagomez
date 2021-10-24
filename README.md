@@ -7,7 +7,7 @@ There is what I call cadence to when these plugin get updated. I have a number o
 Current plugins and why some have been removed:   
 Appodeal: (source is now available from Solar2d removed from here).    
 Ironsource   
-Mopub   
+Mopub: Currently not being updated since Applovin purchased the company.   
 Amazon Login   
 Verify Signature   
 Installer Name   
