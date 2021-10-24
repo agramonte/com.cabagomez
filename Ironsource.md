@@ -105,10 +105,17 @@ AdColony add these schemes (iOS only):
             "tumblr",
             "twitter"
     }
+```    
+12. If using Facebook. Facebook requires this call before initializing Ironsource (iOS only). In the build settings add the plugin:   
 ```
-
-12. If using Facebook. Facebook requires this call before initializing Ironsource (iOS only):   
+["plugin_isfacebook"] = 
+{
+  publisherId = "com.cabagomez"
+},
+```   
+Then after recieving the value from ATT:   
 ```
+    local isfacebook = require("plugin.isfacebook")
     isfacebook.setPrivacy( {
         advertiserTrackingEnabled = <true or false>, -- Result of the ATT privacy question.
         ccpaDoNotSell = <true or false> -- CCPA do not sell question.
@@ -116,7 +123,6 @@ AdColony add these schemes (iOS only):
     )
 
 ```   
-
 13. Logs example:
 
 loaded ("interstitial", "banner")
