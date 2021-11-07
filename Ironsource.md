@@ -270,7 +270,7 @@ Current versions Android:
 --------------- AdColony --------------   
 Adapter 4.3.9  
 --------------- AdMob --------------   
-Adapter 4.3.22
+Adapter 4.3.23
 --------------- AppLovin --------------   
 Adapter 4.3.28  
 SDK Version - 10.3.2   
@@ -278,28 +278,22 @@ SDK Version - 10.3.2
 Adapter 4.3.7   
 SDK Version - 8.2.1   
 --------------- Facebook --------------   
-Adapter 4.3.31   
+Adapter 4.3.32   
 SDK Version - 6.8.0   
---------------- InMobi --------------   
-Adapter 4.3.9   
-SDK Version - 9.1.6   
 --------------- IronSource  --------------   
 Adapter 7.1.10  
 SDK Version - 5.105   
 --------------- Pangle --------------   
-Adapter 4.3.6   
-SDK Version - 3.8.1.1   
---------------- Smaato --------------   
-Adapter 4.3.1   
-SDK Version - 21.5.7   
+Adapter 4.3.7  
+SDK Version - 4.0.1.1  
 --------------- Tapjoy --------------   
-Adapter 4.1.18   
+Adapter 4.1.19   
 SDK Version - 12.8.1  
 --------------- UnityAds --------------   
 Adapter 4.3.14  
 SDK Version - 3.7.5   
 --------------- Vungle --------------   
-Adapter 4.3.11   
+Adapter 4.3.12 
 SDK Version - 6.10.2   
 
 
