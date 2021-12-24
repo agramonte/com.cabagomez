@@ -268,7 +268,7 @@ Adapter - Version 4.3.14
 
 Current versions Android:   
 --------------- AdColony --------------   
-Adapter 4.3.9  
+Adapter 4.3.10
 --------------- AdMob --------------   
 Adapter 4.3.23
 --------------- AppLovin --------------   
@@ -278,14 +278,17 @@ SDK Version - 10.3.2
 Adapter 4.3.7   
 SDK Version - 8.2.1   
 --------------- Facebook --------------   
-Adapter 4.3.32   
+Adapter 4.3.34   
 SDK Version - 6.8.0   
+--------------- Inmobi --------------   
+Adapter 4.3.13   
+SDK Version - 10.0.1   
 --------------- IronSource  --------------   
-Adapter 7.1.10  
-SDK Version - 5.105   
+Adapter 7.1.13 
+SDK Version - 5.109  
 --------------- Pangle --------------   
-Adapter 4.3.7  
-SDK Version - 4.0.1.1  
+Adapter 4.3.9  
+SDK Version - 4.1.1.5  
 --------------- Tapjoy --------------   
 Adapter 4.1.19   
 SDK Version - 12.8.1  
@@ -293,8 +296,10 @@ SDK Version - 12.8.1
 Adapter 4.3.14  
 SDK Version - 3.7.5   
 --------------- Vungle --------------   
-Adapter 4.3.12 
-SDK Version - 6.10.2   
+Adapter 4.3.13
+SDK Version - 6.10.3   
+--------------- Yahoo --------------   
+Adapter 4.3.0  
 
 
 
