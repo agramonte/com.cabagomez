@@ -235,8 +235,8 @@ Current versions iOS:
 SDK - Version 4.6.1.0   
 Adapter - Version 4.3.9   
 --------------- AdMob --------------   
-SDK - Version afma-sdk-i-v8.9.0   
-Adapter - Version 4.3.27   
+SDK - Version afma-sdk-i-v8.13.0   
+Adapter - Version 4.3.29   
 --------------- AppLovin --------------   
 SDK - Version 10.3.4   
 Adapter - Version 4.3.28   
@@ -244,14 +244,14 @@ Adapter - Version 4.3.28
 SDK - Version 8.4.2   
 Adapter - Version 4.3.8   
 --------------- Facebook --------------   
-SDK - Version 6.6.0   
-Adapter - Version 4.3.29   
+SDK - Version 6.9.0   
+Adapter - Version 4.3.33   
 --------------- InMobi --------------   
-SDK - Version 9.2.0   
-Adapter - Version 4.3.12   
+SDK - Version 10.0.1   
+Adapter - Version 4.3.13   
 --------------- IronSource --------------   
-SDK - Version 5.94   
-Adapter - Version 7.1.11   
+SDK - Version 5.97   
+Adapter - Version 7.1.13  
 --------------- Smaato --------------   
 SDK - Version 21.6.14   
 Adapter - Version 4.3.3   
@@ -262,9 +262,10 @@ Adapter - Version 4.1.18
 SDK - Version 3.7.5   
 Adapter - Version 4.3.14   
 --------------- Vungle --------------
-SDK - Version 6.10.3   
-Adapter - Version 4.3.14   
-
+SDK - Version 6.10.5   
+Adapter - Version 4.3.16   
+--------------- Yahoo --------------   
+Adapter 4.3.1  
 
 Current versions Android:   
 --------------- AdColony --------------   
