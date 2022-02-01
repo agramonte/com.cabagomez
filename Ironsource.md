@@ -231,41 +231,38 @@ ironsource:	{
 ```   
 
 Current versions iOS:   
---------------- AdColony --------------   
-SDK - Version 4.6.1.0   
-Adapter - Version 4.3.9   
---------------- AdMob --------------   
-SDK - Version afma-sdk-i-v8.13.0   
-Adapter - Version 4.3.29   
---------------- AppLovin --------------   
-SDK - Version 10.3.4   
-Adapter - Version 4.3.28   
---------------- Chartboost --------------   
-SDK - Version 8.4.2   
-Adapter - Version 4.3.8   
---------------- Facebook --------------   
-SDK - Version 6.9.0   
-Adapter - Version 4.3.33   
---------------- InMobi --------------   
-SDK - Version 10.0.1   
-Adapter - Version 4.3.13   
---------------- IronSource --------------   
-SDK - Version 5.97   
-Adapter - Version 7.1.13  
---------------- Smaato --------------   
-SDK - Version 21.6.14   
-Adapter - Version 4.3.3   
---------------- Tapjoy --------------   
-SDK - Version 12.8.1   
-Adapter - Version 4.1.18   
---------------- UnityAds --------------   
-SDK - Version 3.7.5   
-Adapter - Version 4.3.14   
---------------- Vungle --------------
-SDK - Version 6.10.5   
-Adapter - Version 4.3.16   
---------------- Yahoo --------------   
-Adapter 4.3.1  
+--------------- AdColony --------------    
+Adapter VERIFIED
+SDK - Version 4.6.1.0    
+Adapter - Version 4.3.9    
+--------------- Google (AdMob and Ad Manager) --------------    
+SDK - Version afma-sdk-i-v8.9.0    
+Adapter - Version 4.3.27    
+--------------- InMobi --------------    
+Adapter VERIFIED
+SDK - Version 10.0.1    
+Adapter - Version 4.3.13    
+--------------- IronSource --------------    
+Adapter VERIFIED
+SDK - Version 5.98    
+Adapter - Version 7.1.14    
+--------------- Meta --------------    
+Adapter VERIFIED
+SDK - Version 6.9.0    
+Adapter - Version 4.3.33    
+--------------- Tapjoy --------------    
+Adapter VERIFIED
+SDK - Version 12.8.1    
+Adapter - Version 4.1.18    
+--------------- UnityAds --------------    
+Adapter VERIFIED
+SDK - Version 4.0.0    
+Adapter - Version 4.3.19    
+--------------- Vungle --------------    
+Adapter VERIFIED
+SDK - Version 6.10.5    
+Adapter - Version 4.3.16    
+
 
 Current versions Android:   
 --------------- AdColony --------------   
